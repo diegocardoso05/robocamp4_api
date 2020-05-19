@@ -1,7 +1,7 @@
 pipeline {
    agent {
         docker {
-            image 'python3'
+            image 'python'
             args '--network=skynet'
         }
    }
